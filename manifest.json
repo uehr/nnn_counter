@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "nnn_counter",
+  "description": "授業数,テスト数を表示",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://secure.nnn.ed.jp/mypage/report/pc/list/unit*"
+      ],
+      "css": ["content_style.css"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
