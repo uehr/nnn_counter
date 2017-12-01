@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "nnn_counter",
-  "description": "授業数,テスト数を表示",
+  "description": "授業数&テスト数を表示",
   "version": "1.0",
   "content_scripts": [
     {
